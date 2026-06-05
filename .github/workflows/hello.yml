@@ -9,4 +9,4 @@ jobs:
 
     steps:
       -
-        run: echo "Hello git-hub workflows"
+        run: echo "Hello automation"
