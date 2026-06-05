@@ -1,0 +1,12 @@
+name : a node build
+
+on:
+  push:
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: to print
+        run: echo "Hello git-hub workflows"
