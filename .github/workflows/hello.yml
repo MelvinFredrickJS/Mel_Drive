@@ -8,5 +8,5 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: to print
+      -
         run: echo "Hello git-hub workflows"
