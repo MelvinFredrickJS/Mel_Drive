@@ -4,9 +4,16 @@ on:
   push:
 
 jobs:
-  print:
+  print1:
     runs-on: windows-latest
 
     steps:
       -
         run: echo "Hello automation"
+  print2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: different operating system
+        run: echo "This system output is from ubuntu"
+  
